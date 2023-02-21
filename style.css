@@ -1,0 +1,126 @@
+body{
+    margin: 0 auto;
+    font-family:  sans-serif;
+}
+header{
+    background-color: #007765;
+    margin: 0 auto;
+    padding: 1% 0;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+#logo{
+    margin: 0.5% 5%;
+
+}
+li{
+    display: inline-block;
+    padding: 0.5%;
+    color: white;
+    text-decoration: none;
+    font-size: 172%;
+    text-align: left;
+}
+ul{
+    margin: 0.5% 5%;
+    float: right;
+    width: 500px;
+    text-align: right;
+}
+#jumpButton{
+    padding: 10%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 72px;
+    color: white;
+
+    background-image: url("image.svg");
+    image-resolution: from-image;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1 {
+    text-align: center;
+    color: #007765;
+    font-size: 64px;
+}
+.content{
+    /*width: 1219px;*/
+    width: 70%;
+    margin: 0 auto 5%;
+}
+article{
+    text-align: justify;
+    margin: 2% auto;
+    font-size: 32px;
+    padding: 0 55px;
+}
+
+#hero{
+    text-align: center;
+    background-image: url("heroe.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0 auto;
+    padding: 10% 20%;
+
+    color: white;
+    font-size: 48px;
+    line-height: 1.5;
+}
+#PPCLogo{
+    float: left;
+    padding: 0 55px;
+    alignment: center;
+}
+
+#dark_zone
+{
+    padding: 0.5%;
+    background-color: #EEEEEE;
+    margin: 0 auto;
+    text-align: center;
+
+}
+footer{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3% 30%;
+}
+
+.member_card{
+    margin: 0 auto;
+    display: inline-block;
+    padding: 2% 5%;
+}
+
+.member_card p{
+    text-align: center;
+    margin: 0.5% auto;
+}
+
+#centered_cards{
+    margin: 0 auto;
+    text-align: center;
+}
+.name{
+    color: #007765;
+    font-weight: bold;
+    font-size: 24px;
+}
+.work{
+    font-style: italic;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
